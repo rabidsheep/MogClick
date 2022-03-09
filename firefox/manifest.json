@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "MogClick",
+    "version": "2.5",
+  
+    "description": "Add right click/new tab on click functionality for FFXIV's MogStation storefront.",
+  
+    "icons": {
+      "48": "icons/mog48.png",
+      "96": "icons/mog96.png",
+	  "128": "icons/mog128.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["https://store.finalfantasyxiv.com/ffxivstore/*"],
+        "js": ["main.js"]
+      }
+    ],
+
+    "web_accessible_resources": ["mogclick.js"]
+  }
+  
