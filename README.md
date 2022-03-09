@@ -1,2 +1,2 @@
-# mogclick
- web extension for ffxiv online store
+# MogClick
+ web extension that makes the FFXIV online store actually usable
